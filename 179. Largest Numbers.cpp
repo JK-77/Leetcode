@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     string largestNumber(vector<int>& nums) {
 
         auto myComparater = [](int& a,int& b) {
