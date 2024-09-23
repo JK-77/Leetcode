@@ -1,3 +1,4 @@
+// O(N) * log( max ele )
 class Solution {
 public:
     long long calTotHrs(vector<int> &v, int hourly) {
