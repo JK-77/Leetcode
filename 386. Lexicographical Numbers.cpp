@@ -6,7 +6,7 @@ public:
 
     void solve(int curr, int n, vector<int>& res) {
         if(curr > n) {m
-            return;
+            return;mn
         }
         res.push_back(curr);
 
