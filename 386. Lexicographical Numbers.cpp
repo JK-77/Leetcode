@@ -1,4 +1,4 @@
- // TC : O(N) 
+  // TC : O(N) 
 // SC : O( depends on size of N)
 
 class Solution {
