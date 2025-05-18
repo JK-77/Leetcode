@@ -1,4 +1,4 @@
-   // TC : O(N) 
+// TC : O(N) 
 // SC : O( depends on size of N)
 
 class Solution {
@@ -14,7 +14,7 @@ public:
             int newNum = curr * 10 + append;
  
             if(newNum > n) {
-                return;m
+                return;
             }
             solve(newNum, n, res); //DFS
         }
