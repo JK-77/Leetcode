@@ -5,7 +5,7 @@ class Solution {
 public:
 
     void solve(int curr, int n, vector<int>& res) {
-        if(curr > n) {m
+        if(curr > n) {
             return;
         }
         res.push_back(curr);
