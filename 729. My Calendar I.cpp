@@ -1,4 +1,4 @@
-class MyCalendar {
+,class MyCalendar {
 public:
     set <pair<int,int>> v;
     MyCalendar() {
