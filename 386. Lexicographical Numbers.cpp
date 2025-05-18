@@ -14,7 +14,7 @@ public:
             int newNum = curr * 10 + append;
 
             if(newNum > n) {
-                return;
+                return;m
             }
             solve(newNum, n, res); //DFS
         }
