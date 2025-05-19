@@ -8,7 +8,9 @@ public:
         if(curr > n) {
             return;
         }
-        res.push_back(curr);
+        res.push_back(curr);x
+
+        
 
         for(int append = 0; append <= 9; append++) {
             int newNum = curr * 10 + append;
