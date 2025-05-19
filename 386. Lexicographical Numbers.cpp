@@ -11,7 +11,7 @@ x
         res.push_back(curr);
 
         for(int append = 0; append <= 9; append++) {
-            int newNum = curr * 10 + append;x
+            int newNum = curr * 10 + append;xx
  x
             if(newNum > n) {
                 return;
