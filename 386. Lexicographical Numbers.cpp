@@ -3,7 +3,7 @@ x// TC : O(N)
 
 class Solution {
 public:
-
+x
     void solve(int curr, int n, vector<int>& res) {
         if(curr > n) {
             return;
