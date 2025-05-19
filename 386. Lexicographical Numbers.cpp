@@ -8,7 +8,7 @@ public:
         if(curr > n) {
             return;
         }
-        res.push_back(curr);x
+        res.push_back(curr);xxx
 
         
 
