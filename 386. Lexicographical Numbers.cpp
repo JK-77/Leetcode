@@ -12,7 +12,7 @@ x
 
         for(int append = 0; append <= 9; append++) {
             int newNum = curr * 10 + append;x
- 
+ x
             if(newNum > n) {
                 return;
             }
