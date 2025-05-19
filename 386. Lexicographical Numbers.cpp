@@ -1,9 +1,9 @@
-x// TC : O(N) 
+// TC : O(N) 
 // SC : O( depends on size of N)
 
 class Solution {
 public:
-x
+
     void solve(int curr, int n, vector<int>& res) {
         if(curr > n) {
             return;
@@ -11,8 +11,8 @@ x
         res.push_back(curr);
 
         for(int append = 0; append <= 9; append++) {
-            int newNum = curr * 10 + append;xx
- x
+            int newNum = curr * 10 + append;
+ 
             if(newNum > n) {
                 return;
             }
