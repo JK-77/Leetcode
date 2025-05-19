@@ -10,7 +10,7 @@ public:
         }
         res.push_back(curr);xxx
 
-        
+        xxx
 
         for(int append = 0; append <= 9; append++) {
             int newNum = curr * 10 + append;x
