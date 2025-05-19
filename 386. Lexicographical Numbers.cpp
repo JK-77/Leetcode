@@ -1,4 +1,4 @@
-x// TC : O(N) 
+// TC : O(N) 
 // SC : O( depends on size of N)
 
 class Solution {
@@ -8,10 +8,8 @@ public:
         if(curr > n) {
             return;
         }
-        res.push_back(curr);xxxx
+        res.push_back(curr);
 
-        xxx
-xsxs
         for(int append = 0; append <= 9; append++) {
             int newNum = curr * 10 + append;x
  x
