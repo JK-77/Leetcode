@@ -4,7 +4,7 @@ public:
         int n = s.size();
 
         int dp[n][n];
-        memset(dp, 0, sizeof(dp));
+        memset(dp, 0, sizeof(dp)); 
         int max = 1;
         int si = 0;
         for(int i = 0; i < n; i++) {
