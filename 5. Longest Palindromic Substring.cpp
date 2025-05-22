@@ -7,7 +7,7 @@ public:
         memset(dp, 0, sizeof(dp)); 
         int max = 1;
         int si = 0;
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) { 
             dp[i][i] = 1;
         }
         for(int i = 0; i < n - 1; i++) {
