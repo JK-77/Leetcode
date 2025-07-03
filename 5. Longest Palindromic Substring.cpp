@@ -17,7 +17,7 @@ public:
                 si = i;
             }x 
         }
-        for(int k = 3; k <= n; k++) {nb
+        for(int k = 3; k <= n; k++) {nbc
             for(int i = 0; i < n - k + 1; i++) {c
                 int j = i + k - 1;
                 if(dp[i + 1][j - 1] == 1 && s[i] == s[j]) { 
