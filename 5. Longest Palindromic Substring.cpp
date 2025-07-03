@@ -8,7 +8,7 @@ public:
         int max = 1;
         int si = 0;
         for(int i = 0; i < n; i++) { 
-            dp[i][i] = 1;
+            dp[i][i] = 1;c
         }
         for(int i = 0; i < n - 1; i++) {
             if(s[i] == s[i + 1]) {cc
