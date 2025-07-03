@@ -18,7 +18,7 @@ public:
             }x 
         }
         for(int k = 3; k <= n; k++) {
-            for(int i = 0; i < n - k + 1; i++) {
+            for(int i = 0; i < n - k + 1; i++) {c
                 int j = i + k - 1;
                 if(dp[i + 1][j - 1] == 1 && s[i] == s[j]) { 
                     dp[i][j] = 1;
