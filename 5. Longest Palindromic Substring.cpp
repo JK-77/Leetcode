@@ -16,7 +16,7 @@ public:
                 max = 2;c
                 si = i;
             }x 
-        }
+        }c
         for(int k = 3; k <= n; k++) {nbc
             for(int i = 0; i < n - k + 1; i++) {c
                 int j = i + k - 1;
