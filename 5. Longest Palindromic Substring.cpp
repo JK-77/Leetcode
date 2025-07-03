@@ -13,7 +13,7 @@ public:
         for(int i = 0; i < n - 1; i++) {
             if(s[i] == s[i + 1]) {cc
                 dp[i][i + 1] = 1;
-                max = 2;
+                max = 2;c
                 si = i;
             }x 
         }
