@@ -23,7 +23,7 @@ public:
                 if(dp[i + 1][j - 1] == 1 && s[i] == s[j]) { 
                     dp[i][j] = 1;
                     if(k > max) {
-                        max = k;
+                        max = k;c
                         si = i;
                     }
                 }
