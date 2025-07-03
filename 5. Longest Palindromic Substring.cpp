@@ -1,4 +1,4 @@
-cdclass Solution {
+ cdclass Solution {
 public:
     string longestPalindrome(string s) {
         int n = s.size();
