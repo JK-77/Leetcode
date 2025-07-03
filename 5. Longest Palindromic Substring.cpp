@@ -20,7 +20,7 @@ public:
         for(int k = 3; k <= n; k++) {
             for(int i = 0; i < n - k + 1; i++) {
                 int j = i + k - 1;
-                if(dp[i + 1][j - 1] == 1 && s[i] == s[j]) {
+                if(dp[i + 1][j - 1] == 1 && s[i] == s[j]) { 
                     dp[i][j] = 1;
                     if(k > max) {
                         max = k;
