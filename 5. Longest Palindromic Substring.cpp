@@ -15,7 +15,7 @@ public:
                 dp[i][i + 1] = 1;
                 max = 2;
                 si = i;
-            }
+            }x 
         }
         for(int k = 3; k <= n; k++) {
             for(int i = 0; i < n - k + 1; i++) {
