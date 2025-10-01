@@ -1,69 +1,92 @@
-📌 Probabilistic Deep Learning Project
-📝 Title
-Probabilistic Deep Learning Models for Uncertainty Estimation and Data Generation
+# 📌 Probabilistic Deep Learning Project  
 
-👤 Student Details
-Name: Jayesh Kriplani
+## 👤 Student Details  
+- **Name:** Jayesh Kriplani  
+- **Batch:** A3_40  
 
-Batch: A3_40
+---
 
-🎯 Aim
-To design and implement deep learning solutions using probabilistic models and techniques for classification, prediction, and data generation.
-The project explores Uncertainty Estimation with Monte Carlo Dropout and Data Generation with Variational Autoencoders (VAEs).
+## 🎯 Aim  
+To design and implement deep learning solutions using **probabilistic models and techniques** for classification, prediction, and data generation.  
+The project explores:  
+- **Uncertainty Estimation with Monte Carlo Dropout (Bayesian Approximation)**  
+- **Data Generation with Variational Autoencoders (VAEs)**  
 
-📍 Problem Statement
-Traditional deep learning models provide point predictions but lack uncertainty estimation, which is crucial in high-stakes applications (e.g., medical diagnosis, autonomous driving).
-Moreover, generative models that can create new realistic samples are becoming increasingly important in modern AI research.
+---
 
-The goal of this project is to:
+## 📍 Problem Statement  
+Traditional deep learning models provide **point predictions** but lack the ability to estimate **uncertainty**, which is crucial in applications like:  
+- Medical diagnosis  
+- Autonomous driving  
+- Financial forecasting  
 
-Implement probabilistic deep learning models that capture uncertainty in predictions.
+Additionally, generative models are becoming increasingly important in creating **new realistic data** for tasks like simulation, augmentation, and creativity.  
 
-Compare techniques like Monte Carlo Dropout (Bayesian Approximation) and Variational Autoencoders (VAE).
+👉 The project aims to:  
+1. Implement **probabilistic deep learning models** that capture uncertainty.  
+2. Compare **Monte Carlo Dropout (MC Dropout)** and **Variational Autoencoders (VAE)**.  
+3. Train, evaluate, and visualize models on the **MNIST dataset**.  
 
-Train, evaluate, and visualize the models on the MNIST dataset for digit recognition and generation.
+---
 
-📊 Dataset
-Dataset Used: MNIST Handwritten Digits Dataset
+## 📊 Dataset  
+- **Dataset:** [MNIST Handwritten Digits](http://yann.lecun.com/exdb/mnist/)  
+- **Description:**  
+  - 70,000 grayscale images of digits (0–9)  
+  - Image size: 28×28 pixels  
+  - Train: 60,000 images | Test: 10,000 images  
 
-Description:
+---
 
-70,000 images of handwritten digits (0–9)
+## 🧠 Models Implemented  
 
-Grayscale, 28×28 pixels
+### 1️⃣ CNN with Monte Carlo Dropout (MC Dropout)  
+- Used for **classification with uncertainty estimation**  
+- During inference, multiple stochastic forward passes approximate predictive distribution  
+- Provides **mean prediction + variance (uncertainty measure)**  
 
-Train: 60,000 images | Test: 10,000 images
+### 2️⃣ Variational Autoencoder (VAE)  
+- Used for **data generation & reconstruction**  
+- Learns latent representations of digits  
+- Can generate **new handwritten digit samples**  
 
-🧠 Models Implemented
-CNN with Monte Carlo Dropout
+---
 
-Used for classification with uncertainty estimation.
+## ⚙️ Steps Performed  
+✔️ Data Preprocessing & Loading  
+✔️ Model Design (CNN + Dropout, VAE)  
+✔️ Training & Evaluation  
+✔️ Uncertainty Estimation with MC Dropout  
+✔️ Latent Space Visualization & Image Generation (VAE)  
+✔️ Comparison & Results  
 
-Multiple stochastic forward passes are performed at inference to approximate predictive distribution.
+---
 
-Variational Autoencoder (VAE)
+## 📈 Results & Insights  
+- **MC Dropout**:  
+  - Produced reliable predictions with **uncertainty estimates**  
+  - Higher variance observed for **ambiguous digits** (e.g., 4 vs 9)  
 
-Used for data generation and reconstruction.
+- **VAE**:  
+  - Generated **realistic handwritten digits**  
+  - Learned a smooth **latent space representation**  
 
-Learns latent representations of digits and generates new realistic samples.
+👉 This shows how **probabilistic deep learning improves reliability and interpretability** compared to deterministic models.  
 
-⚙️ Steps Performed
-Data Preprocessing & Loading
+---
 
-Model Design (CNN + Dropout, VAE)
+## 📽️ Project Deliverables  
+1. 📒 **Jupyter Notebook** – Full implementation & results  
+2. 📄 **README.md** – Problem Statement, Dataset, and Explanation  
+3. 🎥 **Video (4–5 min)** – Walkthrough of the project (to be recorded)  
 
-Training & Evaluation
+---
 
-Uncertainty Estimation with MC Dropout
+## 🔮 Future Work  
+- Extend to **Bayesian Neural Networks (BNNs)**  
+- Apply on larger datasets (CIFAR-10, Fashion-MNIST)  
+- Explore **normalizing flows** for advanced generative modeling  
 
-Latent Space Visualization & Image Generation (VAE)
+---
 
-Comparison & Results
-
-📈 Results & Insights
-CNN with MC Dropout successfully estimated uncertainty in predictions, showing higher variance for ambiguous digits.
-
-VAE generated realistic handwritten digits and provided a smooth latent space representation.
-
-Demonstrated how probabilistic deep learning improves reliability and interpretability compared to deterministic models.
-
+✨ *This project demonstrates the power of Probabilistic Deep Learning for uncertainty estimation and generative modeling.*  
